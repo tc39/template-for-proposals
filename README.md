@@ -21,11 +21,6 @@ Follow these steps:
       git config --local --add merge.output.driver true
       git config --local --add merge.output.driver true
       ```
-  1.  Add a post-rewrite git hook to auto-rebuild the output on every commit:
-      ```sh
-      cp hooks/post-rewrite .git/hooks/post-rewrite
-      chmod +x .git/hooks/post-rewrite
-      ```
 
 ## Maintain your proposal repo
 
