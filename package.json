@@ -4,7 +4,8 @@
   "description": "A repository template for ECMAScript proposals.",
   "scripts": {
     "start": "npm run build -- --watch",
-    "build": "ecmarkup spec.emu index.html"
+    "prebuild": "mkdir out || exit 0",
+    "build": "ecmarkup --verbose spec.emu out/index.html --css out/ecmarkup.css --js out/ecmarkup.js"
   },
   "homepage": "https://github.com/tc39/template-for-proposals#readme",
   "repository": {
@@ -13,6 +14,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "ecmarkup": "^3.19.1"
+    "ecmarkup": "^3.25.1"
   }
 }

@@ -1,8 +1,8 @@
 <!doctype html>
 <meta charset="utf8">
-<link rel="stylesheet" href="./spec.css">
+<link rel="stylesheet" href="./ecmarkup.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<script src="./spec.js"></script>
+<script src="./ecmarkup.js"></script>
 <pre class="metadata">
 title: Proposal Title Goes Here
 stage: -1
