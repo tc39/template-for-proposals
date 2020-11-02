@@ -7,11 +7,7 @@
     "build": "npm run build-loose -- --strict",
     "build-loose": "ecmarkup --verbose spec.emu index.html"
   },
-  "homepage": "https://github.com/tc39/template-for-proposals#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tc39/template-for-proposals.git"
-  },
+  "repository": "https://github.com/tc39/template-for-proposals",
   "license": "MIT",
   "devDependencies": {
     "ecmarkup": "^4.0.0"
