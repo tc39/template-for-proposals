@@ -18,6 +18,6 @@ contributors: Your Name(s) Here
       1. Let _stage_ be *0*<sub>ℤ</sub>.
     1. Else,
       1. Let _stage_ be *-1*<sub>ℤ</sub>.
-    1. Return ? ToString(_proposal_).
+    1. Return ? ToString(_stage_).
   </emu-alg>
 </emu-clause>
