@@ -1,4 +1,4 @@
-name: Deploy gh-pages
+name: Publish main
 
 on:
   push:
@@ -6,9 +6,8 @@ on:
       - main
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
     - uses: ljharb/actions/node/install@main
@@ -16,8 +15,10 @@ jobs:
       with:
         node-version: lts/*
     - run: npm run build
-    - uses: JamesIves/github-pages-deploy-action@v4
+    - name: Publish to gh-pages
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
         folder: build
-        clean: true
+        clean-exclude: |
+          pr
