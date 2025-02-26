@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf8">
 <link rel="stylesheet" href="./spec.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css" integrity="sha512-iDO4iL6PUvPt54yn8f29JSkoMrScHRIMArsHJtOTGg2yTHWT7dfvziWeXIneGy+wGwbrhGMg1a1ntA+sNA+atg==" crossorigin="anonymous">
 <script src="./spec.js"></script>
 <pre class="metadata">
 title: Proposal Title Goes Here
