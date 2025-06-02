@@ -38,6 +38,8 @@ jspm_packages
 
 # Only apps should have lockfiles
 yarn.lock
+package-lock.json
+npm-shrinkwrap.json
 pnpm-lock.yaml
 
 # Build directory

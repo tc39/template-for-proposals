@@ -12,5 +12,5 @@ jobs:
       with:
         node-version: lts/*
         cache: 'npm'
-    - run: npm ci
+    - run: npm install
     - run: node --run build
